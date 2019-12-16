@@ -79,7 +79,7 @@ holiday_hash.each do |season, holiday_array|
     holiday_array.each do |supplies|
       supplies.each do |array|
         if array == "BBQ"
-          supply_array << array
+          supply_array << holiday_array
         end 
       end
     end
