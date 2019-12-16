@@ -76,7 +76,11 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
 # itterate over the holiday_hash to get key winter , summer, fall, and spring
 # each season is another hash with a holiday key pointing to an array supplies itterate through those supplies to see if they contain "BBQ" if they do return the keys as symbols in an array.
-
+  
+  supplies_array = []
+  
+  holiday_hash.each do |seasons, hash_of_holidays|
+    binding.pry
 end
 
 
