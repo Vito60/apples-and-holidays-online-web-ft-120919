@@ -80,7 +80,8 @@ def all_holidays_with_bbq(holiday_hash)
   supplies_array = []
   
   holiday_hash.each do |seasons, hash_of_holidays|
-    binding.pry
+    hash_of_holidays.each do |
+    #binding.pry
   end
 end
 
