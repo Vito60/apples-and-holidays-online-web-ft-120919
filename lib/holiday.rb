@@ -74,6 +74,8 @@ end
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
+# itterate over the holiday_hash to get key winter , summer, fall, and spring
+# each season is another hash with a holiday key pointing to an array supplies itterate through those supplies to see if they contain "BBQ" if they do return the keys as symbols in an array.
 
 end
 
